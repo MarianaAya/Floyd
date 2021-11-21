@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/principal.css" rel="stylesheet" type="text/css"/>
+        <script src="js/Funcao.js" type="text/javascript"></script>
+    </head>
+    <body onload="">
+        <header>
+            <h1>Algoritmo de Floyd</h1>
+        </header>
+        <div class="div-conteudo">
+            <div class="div-consultar">
+                <div class="div-vertices">
+                    <div class="div-input">
+                        <label class="">Quantidade de vertices: </label>
+                        <input class="input-qtde-vertice" type="number" id="qtde-vertice" name="qtde_vertice"/>
+                        <button  onclick="inicio()">Enviar</button>
+                    </div>
+                    <div class="div-input-dados" id="div-dados">
+                    
+                    </div>
+                </div>
+                
+                <button class="button-opcoes" onclick="floyd()">Floyd</button>
+                
+        
+            </div>
+            <div class="div-resposta" id="div-resposta">
+                
+                
+             
+            </div>
+            <div class="div-resposta" id="div-caminho">
+                
+                <div class="div-inputcaminho">
+                    <label class="">Origem: </label>
+                    <input class="input-qtde-vertice" type="number" id="origem" name="origem"/>
+                    <label class="">Destino: </label>
+                    <input class="input-qtde-vertice" type="number" id="destino" name="destino"/>
+                    <button class="button-opcoes" onclick="obterCaminho()">Enviar</button>
+                </div>
+                <div class="" id="div-caminhodados">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

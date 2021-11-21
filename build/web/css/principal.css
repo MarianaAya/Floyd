@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    overflow: auto;
+    
+    
+}
+header{
+    background-color: #e6f2ff;
+}
+h1{
+    margin: 0;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #0033cc;
+    color: #ffffff
+}
+
+h2{
+    text-align: center
+}
+
+.div-conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+    background-color: #ffffff;
+    
+}
+
+.div-consultar{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    
+    border-radius: 25px;
+    box-shadow: 0 0 1em rgb(26, 102, 255);
+}
+
+.bt-ptArticulacao{
+    margin-bottom: 20px;
+}
+.div-consultar .button-opcoes{
+    width: 50%;
+    background-color: rgb(230, 238, 255);
+    color: rgb(216, 216, 216);
+    margin-top: 20px;
+    border: none;
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px
+ 
+
+}
+.div-consultar button:hover{
+    background-color: rgb(0, 81, 255);
+    color: white;
+}
+.div-resposta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #e6f7ff;
+    margin-top: 5%;
+    width: 80%;
+    box-shadow: 0 0 1em rgb(26, 102, 255);
+    
+}
+
+.div-bloco{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 2%
+}
+
+.div-fila{
+    width: 100%;
+}
+.div_tabela{
+    width: 100%;
+    
+}
+.div-tabela thead{
+    background-color: rgb(255,255,255);
+}
+.div-tabela tbody{
+    background-color: rgb(255,255,255);
+}
+.div-vertices{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.div-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.div-input-dados input{
+    width: 40px;
+}
+.div-input .input-qtde-vertice{
+    width: 60px;
+}
+.div-input-dados{
+    width: 550px;
+}
+.div-input-linha{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.div-tabela{
+    width: 40%
+}
+.table-coloracao{
+   background-color: #66ccff;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px
+}
+.table-coloracao tr td{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.table-coloracao thead{
+    width: 50%;
+    background-color: rgb(51, 153, 255)
+}
+
+.div-inputcaminho{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.div-inputcaminho input{
+    width: 40px;
+}
+
+
+
+
